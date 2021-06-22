@@ -24,7 +24,9 @@ const Header = () => {
           </div>
 
           {/* Search */}
-          {/* mobile first meaning hide on small screen else flex */}
+          {/* mobile first meaning hide on small screen else flex
+          Use flex-grow (flex-grow=1) to allow a flex item to grow to fill any available space: 
+          Use flex-shrink to allow a flex item to shrink if needed:*/}
           <div className="hidden sm:flex flex-grow bg-yellow-400 hover:bg-yellow-500 items-center h-10 rounded-md cursor-pointer">
             <input
               className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4"

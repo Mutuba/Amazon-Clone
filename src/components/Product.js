@@ -15,8 +15,8 @@ const Product = ({ id, title, price, description, category, image }) => {
 
   return (
     <div className="relative flex flex-col m-5 bg-white z-30 padding-10">
-      <p className="absolute top-2 right-2 text-xs italic">{category}</p>
-      <Image src={image} height={200} width={200} objectFit="contain" />
+      <p className="absolute top-2 right-1 text-xs italic ">{category}</p>
+      <Image src={image} height={100} width={100} objectFit="contain" />
 
       <h4 className="my-3">{title}</h4>
 
@@ -37,12 +37,16 @@ const Product = ({ id, title, price, description, category, image }) => {
 
       {hasPrime && (
         <div className="flex items-center space-x-2 -mt-3">
-          <img className="w-12" src="https://links.papareact.com/f90" alt=""></img>
+          <img
+            className="w-12"
+            src="https://links.papareact.com/f90"
+            alt=""
+          ></img>
 
           <p className="text-xs text-gray-500">Free next day delivery</p>
         </div>
       )}
-
+      {/* mt-auto button-ensures correct height */}
       <button className="mt-auto button">Add to Basket</button>
     </div>
   );
