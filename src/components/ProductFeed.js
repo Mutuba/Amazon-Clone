@@ -9,6 +9,8 @@ const ProductFeed = ({ products }) => {
     // column-Items are placed by filling each column in turn, adding new columns as necessary.
     //row - Items are placed by filling each row in turn, adding new rows as necessary
 
+
+    
     <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:-mt-52 mx-auto">
       {products.map(({ id, title, price, description, category, image }) => (
         <Product
