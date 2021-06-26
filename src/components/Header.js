@@ -9,6 +9,8 @@ const Header = () => {
   return (
     <div>
       <header>
+
+
         {/* Top Nav */}
         <div className="flex items-center bg-amazon_blue p-2 flex-grow py-2">
           {/* mt=margin-top sm:flex-frow-0 means no growing on small screen  */}
@@ -22,6 +24,8 @@ const Header = () => {
               className="cursor-pointer"
             />
           </div>
+
+          
 
           {/* Search */}
           {/* mobile first meaning hide on small screen else flex
