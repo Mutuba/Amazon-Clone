@@ -10,7 +10,6 @@ const Header = () => {
     <div>
       <header>
 
-
         {/* Top Nav */}
         <div className="flex items-center bg-amazon_blue p-2 flex-grow py-2">
           {/* mt=margin-top sm:flex-frow-0 means no growing on small screen  */}
@@ -25,8 +24,7 @@ const Header = () => {
             />
           </div>
 
-          
-
+           
           {/* Search */}
           {/* mobile first meaning hide on small screen else flex
           Use flex-grow (flex-grow=1) to allow a flex item to grow to fill any available space: 
@@ -66,6 +64,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+
 
         {/* Bottom Nav */}
 
