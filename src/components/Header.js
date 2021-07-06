@@ -18,6 +18,7 @@ const Header = () => {
               src="https://links.papareact.com/f90"
               width={150}
               height={40}
+              
               // keep image aspect ratio
               objectFit="contain"
               className="cursor-pointer"
@@ -51,6 +52,7 @@ const Header = () => {
               <p className="font-extrabold md:text-sm">& Orders</p>
             </div>
 
+
             <div className="relative flex items-center link">
               <span className="absolute top-0 right-0 md:right-10 h-4 w-4 bg-yellow-400 text-center text-black rounded-full font-bold">
                 {" "}
@@ -64,6 +66,7 @@ const Header = () => {
             </div>
           </div>
         </div>
+
 
 
         {/* Bottom Nav */}
