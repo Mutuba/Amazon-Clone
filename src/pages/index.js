@@ -5,6 +5,7 @@ import ProductFeed from "../components/ProductFeed";
 
 const Home = ({ products }) => {
   return (
+
     <div className="bg-grey-100">
       <Head>
         <title>Amazon 2.0</title>
@@ -13,6 +14,7 @@ const Home = ({ products }) => {
 
       <main className="max-w-screen-2xl mx-auto">
         {/* Banner */}
+
 
         <Banner />
 
@@ -25,6 +27,7 @@ const Home = ({ products }) => {
 };
 
 export default Home;
+
 
 export const getServerSideProps = async (context) => {
   const products = await fetch(

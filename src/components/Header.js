@@ -26,6 +26,7 @@ const Header = () => {
           </div>
 
            
+
           {/* Search */}
           {/* mobile first meaning hide on small screen else flex
           Use flex-grow (flex-grow=1) to allow a flex item to grow to fill any available space: 
@@ -39,6 +40,7 @@ const Header = () => {
           </div>
 
           {/* Right */}
+
 
           <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap cursor-pointer">
             <div className="link">
